@@ -4,15 +4,16 @@
   <title><%= full_title(yield(:title)) %></title>
   <%= csrf_meta_tags %>
 
+<!--  Recall that <%#= ... %> (# is for commenting the expression, o/w it is interpreted in the comment as well) is the
+embedded Ruby syntax needed to evaluate a Ruby expression and then insert the results into the template-->
+
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  <!--[if lt IE 9]>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
-  </script>
-  <![endif]-->
+  <%= render 'layouts/shim' %>
 </head>
 
 <body>
+<%= render 'layouts/header' %>
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
     <% link_to "sample app", '#', id: "logo" %>
