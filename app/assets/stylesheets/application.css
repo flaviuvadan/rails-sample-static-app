@@ -10,6 +10,8 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
+ * "require_tree ." - ensures all CSS files in app/assets/stylesheets are included into the app CSS
+ * "require_self" specifies where in the loading sequences the CSS inapplication.css itself gets included
  *= require_tree .
  *= require_self
  */
