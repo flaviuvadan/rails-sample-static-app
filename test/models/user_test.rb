@@ -19,4 +19,13 @@ class UserTest < ActiveSupport::TestCase
 		@user.email = " "
 		assert_not @user.valid?
 	end
+
+	test "name should not exceed limit" do
+	  @user.name = "a" * 51
+		assert_not @user.valid?
+	end
+
+	test "email should not exceed limit" do
+		@user.email = "a" * 244 + "@example.com"
+	end
 end
