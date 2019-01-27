@@ -6,15 +6,20 @@ class User < ApplicationRecord
 	email_limit       = 255
 	valid_email_regex = /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
 
-	validates :name, presence: true,
-						length:          { maximum: name_limit }
-	validates :email, presence: true,
-						length:           { maximum: email_limit },
-						format:           { with: valid_email_regex },
-						uniqueness:       { case_sensitive: false }
+	validates :name,
+						presence: true,
+						length:   { maximum: name_limit }
+	validates :email,
+						presence:   true,
+						length:     { maximum: email_limit },
+						format:     { with: valid_email_regex },
+						uniqueness: { case_sensitive: false }
 
 	# database index might not be case-insensitive
 	before_save { self.email.downcase! }
 
 	has_secure_password
+	validates :password,
+						presence: true,
+						length:   { minimum: 6 }
 end
