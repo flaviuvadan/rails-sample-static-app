@@ -12,4 +12,7 @@ class User < ApplicationRecord
 						length:           { maximum: email_limit },
 						format:           { with: valid_email_regex },
 						uniqueness:       { case_sensitive: false }
+
+	# database index might not be case-insensitive
+	before_save { self.email.downcase! }
 end
