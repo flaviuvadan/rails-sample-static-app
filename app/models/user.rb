@@ -15,4 +15,6 @@ class User < ApplicationRecord
 
 	# database index might not be case-insensitive
 	before_save { self.email.downcase! }
+
+	has_secure_password
 end
