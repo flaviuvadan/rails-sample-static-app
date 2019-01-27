@@ -4,7 +4,7 @@ class User < ApplicationRecord
 	# User but not by descendants of the User class
 	name_limit  = 50
 	email_limit = 255
-	valid_email_regex = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+	valid_email_regex = /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
 
 	validates :name, presence: true, length: { maximum: name_limit }
 	validates :email, presence: true, length: { maximum: email_limit }, format: { with: valid_email_regex }
