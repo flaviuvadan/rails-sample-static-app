@@ -17,6 +17,7 @@ embedded Ruby syntax needed to evaluate a Ruby expression and then insert the re
 <div class="container">
   <%= yield %>
   <%= render 'layouts/footer' %>
+  <%= debug(params) if Rails.env.development? %>
 </div>
 </body>
 </html>
