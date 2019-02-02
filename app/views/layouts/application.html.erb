@@ -17,9 +17,7 @@ embedded Ruby syntax needed to evaluate a Ruby expression and then insert the re
 <div class="container">
 
   <% flash.each do |message_type, message| %>
-    <div class="alert alert-<%= message_type %>">
-      <%= message %>
-    </div>
+    <%= content_tag(:div, message, class: "alert alert-#{message_type}") %>
   <% end %>
 
   <%= yield %>

@@ -63,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+            <state relative-caret-position="420">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -97,19 +97,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/shared/_error_messages.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/integration/users_signup_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="495">
+              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -173,8 +164,8 @@
         <option value="$PROJECT_DIR$/app/views/users/new.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" />
         <option value="$PROJECT_DIR$/app/views/shared/_error_messages.html.erb" />
-        <option value="$PROJECT_DIR$/test/integration/users_signup_test.rb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/test/integration/users_signup_test.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
@@ -455,21 +446,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546793475993</updated>
-      <workItem from="1546793477126" duration="28371000" />
-    </task>
-    <task id="LOCAL-00010" summary="Add root_url test">
-      <created>1546813451960</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1546813451960</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Update gitignore and init Guardfile to run on test changes">
-      <created>1546814171986</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1546814171986</updated>
+      <workItem from="1546793477126" duration="28779000" />
     </task>
     <task id="LOCAL-00012" summary="Add full_title app helper">
       <created>1547327192646</created>
@@ -800,7 +777,21 @@
       <option name="project" value="LOCAL" />
       <updated>1549150506399</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Fix app level alert">
+      <created>1549150776755</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1549150776755</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Add valid signup information test">
+      <created>1549151037184</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1549151037184</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -809,7 +800,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28371000" />
+    <option name="totallyTimeSpent" value="28779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="155" width="1920" height="1080" extended-state="0" />
@@ -867,8 +858,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add a simple email validation regex (note, it accepts ..domain)" />
-    <MESSAGE value="Add .. validator" />
     <MESSAGE value="Additional constrains on user fields" />
     <MESSAGE value="Db migrate - regen schema&#10;&#10;Get rid of test fixtures for now due to unique constraint" />
     <MESSAGE value="Add save callback to downcase email" />
@@ -892,7 +881,9 @@
     <MESSAGE value="Add invalid signup information test" />
     <MESSAGE value="Add flash upon successful user creation" />
     <MESSAGE value="Use flash at app level" />
-    <option name="LAST_COMMIT_MESSAGE" value="Use flash at app level" />
+    <MESSAGE value="Fix app level alert" />
+    <MESSAGE value="Add valid signup information test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add valid signup information test" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -1178,27 +1169,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_error_messages.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/integration/users_signup_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1220,10 +1190,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_error_messages.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/integration/users_signup_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
