@@ -6,11 +6,6 @@ class SessionsControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should perform create" do
-    post login_path
-    assert_response :success
-  end
-
   test "should perform delete" do
     delete logout_path
     assert_response :success
