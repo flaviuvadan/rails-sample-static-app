@@ -25,17 +25,30 @@ class User < ApplicationRecord
 						presence: true,
 						length:   { minimum: 6 }
 
+	# Create an encrypted version of the given string
 	def User.digest(string)
 		cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST : BCrypt::Engine.cost
 		BCrypt::Password.create(string, cost: cost)
 	end
 
+	# Create a url safe, base-64 encoded token
 	def User.new_token
 		SecureRandom.urlsafe_base64
 	end
 
+	# Remember the current user's token
 	def remember
 		self.remember_token = User.new_token
 		update_attribute(:remember_digest, User.digest(remember_token))
+	end
+
+	# Check whether a user is authenticated based on the current remember token
+	def authenticated?(remember_token)
+		BCrypt::Password.new(remember_digest).is_password?(remember_token)
+	end
+
+	# Forget a user
+	def forget
+		update_attribute(:remember_digest, nil)
 	end
 end
