@@ -8,6 +8,7 @@ class User < ApplicationRecord
 	email_limit       = 255
 	valid_email_regex = /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
 
+	# validators
 	validates :name,
 						presence: true,
 						length:   { maximum: name_limit }
