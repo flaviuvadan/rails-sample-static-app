@@ -4,6 +4,7 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
   def setup
     @base_title = "Ruby on Rails Tutorial Sample App"
     @user = users(:Starman)
+    @user_2 = users(:Zaphod)
   end
 
   test "should get new" do
