@@ -1,7 +1,12 @@
 class UsersController < ApplicationController
 
-	before_action :logged_in_user, only: [:edit, :update]
+	before_action :logged_in_user, only: [:index, :edit, :update]
 	before_action :correct_user, only: [:edit, :update]
+
+	# Get a list of all users
+	def index
+		@users = User.all
+	end
 
 	# Check if a user is logged in
 	def logged_in_user
