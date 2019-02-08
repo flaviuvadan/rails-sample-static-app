@@ -170,22 +170,22 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="autoprefixer-rails (vbundled(9.4.6)) [path][gem]" type="rubylib">
+      <library name="autoprefixer-rails (vbundled(9.4.7)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="3" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.6/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.6/spec" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.6/vendor" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/vendor" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.6/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.6/spec" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.6/vendor" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/vendor" />
         </SOURCES>
         <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.6/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec" />
         </excluded>
       </library>
     </orderEntry>
@@ -428,6 +428,19 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="faker (vbundled(1.7.3)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="3" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="ffi (vbundled(1.10.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="3" />
@@ -467,15 +480,15 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="globalid (vbundled(0.4.1)) [path][gem]" type="rubylib">
+      <library name="globalid (vbundled(0.4.2)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="3" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/globalid-0.4.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/globalid-0.4.2/lib" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/globalid-0.4.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/globalid-0.4.2/lib" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -535,16 +548,24 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="i18n (vbundled(1.4.0)) [path][gem]" type="rubylib">
+      <library name="i18n (vbundled(0.9.5)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="3" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-1.4.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/gemfiles" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-1.4.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/gemfiles" />
         </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/gemfiles" />
+        </excluded>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -811,26 +832,26 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="nokogiri (vbundled(1.10.0)) [path][gem]" type="rubylib">
+      <library name="nokogiri (vbundled(1.10.1)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="3" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.0/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.0/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.0/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.0/patches" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/patches" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.0/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.0/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.0/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.0/patches" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/patches" />
         </SOURCES>
         <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.0/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.0/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.0/patches" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/patches" />
         </excluded>
       </library>
     </orderEntry>
