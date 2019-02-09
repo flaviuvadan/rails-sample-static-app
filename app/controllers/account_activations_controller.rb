@@ -10,7 +10,7 @@ class AccountActivationsController < ApplicationController
 
 		# Convert email to lowercase before saving a user
 		def downcase_email
-			self.email = email.downcase
+			self.email.downcase!
 		end
 
 		# Create and assign the activation token
