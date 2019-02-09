@@ -5,7 +5,7 @@ class UsersController < ApplicationController
 
 	# Get a list of all users
 	def index
-		@users = User.all
+		@users = User.paginate(page: params[:page])
 	end
 
 	# Check if a user is logged in
