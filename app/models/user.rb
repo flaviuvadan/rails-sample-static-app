@@ -1,5 +1,9 @@
 class User < ApplicationRecord
-	attr_accessor :remember_token
+
+	attr_accessor :remember_token, :activation_token
+
+	before_create :create_activation_digest
+	before_save :downcase_email
 
 	# note, there is a difference between a class instance variable and a class variable
 	# in this case, name_limit and email_limit are class instance variables and are only accessible to an instance of a
@@ -7,7 +11,6 @@ class User < ApplicationRecord
 	name_limit        = 50
 	email_limit       = 255
 	valid_email_regex = /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
-
 	# validators
 	validates :name,
 						presence: true,
@@ -18,13 +21,10 @@ class User < ApplicationRecord
 						format:     { with: valid_email_regex },
 						uniqueness: { case_sensitive: false }
 
-	# database index might not be case-insensitive
-	before_save { self.email.downcase! }
-
 	has_secure_password
 	validates :password,
-						presence: true,
-						length:   { minimum: 6 },
+						presence:  true,
+						length:    { minimum: 6 },
 						allow_nil: true
 
 	# Create an encrypted version of the given string
@@ -53,5 +53,21 @@ class User < ApplicationRecord
 	# Forget a user
 	def forget
 		update_attribute(:remember_digest, nil)
+	end
+
+	# Sends activation email
+	def send_activation_email
+		UserMailer.account_activation(self).deliver_now
+	end
+
+	# Converts email to all lower-case
+	def downcase_email
+		self.email.downcase!
+	end
+
+	# Create the token and digest
+	def create_activation_digest
+		self.activation_token  = User.new_token
+		self.activation_digest = User.digest(activation_token)
 	end
 end

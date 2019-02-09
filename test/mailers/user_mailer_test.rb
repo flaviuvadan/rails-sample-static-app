@@ -3,8 +3,8 @@ require 'test_helper'
 class UserMailerTest < ActionMailer::TestCase
 
 	def setup
-		@user                = users(:Starman)
-		@user.remember_token = User.new_token
+		@user                  = users(:Starman)
+		@user.activation_token = User.new_token
 	end
 
 	test "account_activation" do
@@ -13,7 +13,7 @@ class UserMailerTest < ActionMailer::TestCase
 		assert_equal [@user.email], mail.to
 		assert_equal ["noreply@example.com"], mail.from
 		assert_match @user.name, mail.body.encoded
-		assert_match @user.remember_token, mail.body.encoded
+		assert_match @user.activation_token, mail.body.encoded
 		assert_match CGI.escape(@user.email), mail.body.encoded
 	end
 
