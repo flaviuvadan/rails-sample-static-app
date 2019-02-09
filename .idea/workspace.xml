@@ -2,535 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68861b6f-3f87-4e9e-99eb-f2cb7e760279" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/integration/users_index_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/cache/autoprefixer-rails-9.4.7.gem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/cache/bootstrap-will_paginate-1.0.0.gem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/cache/faker-1.7.3.gem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/cache/globalid-0.4.2.gem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/cache/i18n-0.9.5.gem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/cache/nokogiri-1.10.1.gem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/cache/will_paginate-3.1.6.gem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/extensions/universal-darwin-18/2.3.0/nokogiri-1.10.1/gem.build_complete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/extensions/universal-darwin-18/2.3.0/nokogiri-1.10.1/gem_make.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/extensions/universal-darwin-18/2.3.0/nokogiri-1.10.1/mkmf.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/extensions/universal-darwin-18/2.3.0/nokogiri-1.10.1/nokogiri/nokogiri.bundle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/.rspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/autoprefixer-rails.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/lib/autoprefixer-rails.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/lib/autoprefixer-rails/processor.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/lib/autoprefixer-rails/railtie.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/lib/autoprefixer-rails/result.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/lib/autoprefixer-rails/sprockets.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/lib/autoprefixer-rails/version.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/lib/rake/autoprefixer_tasks.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec/app/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec/app/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec/app/app/assets/config/manifest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec/app/app/assets/stylesheets/evaluate.css.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec/app/app/assets/stylesheets/loaded.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec/app/app/assets/stylesheets/sass.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec/app/app/assets/stylesheets/test.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec/app/app/assets/stylesheets/wrong.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec/app/app/controllers/application_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec/app/app/controllers/css_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec/app/config.ru" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec/app/config/application.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec/app/config/autoprefixer.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec/app/config/boot.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec/app/config/environment.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec/app/config/environments/test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec/app/config/initializers/compress.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec/app/config/initializers/secret_token.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec/app/config/routes.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec/autoprefixer_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec/compass/config.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec/compass/sass/screen.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec/compass_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec/processor_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec/rails_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec/railtie_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/spec/spec_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/sprockets4.gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/autoprefixer-rails-9.4.7/vendor/autoprefixer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/bootstrap-will_paginate-1.0.0/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/bootstrap-will_paginate-1.0.0/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/bootstrap-will_paginate-1.0.0/MIT-LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/bootstrap-will_paginate-1.0.0/README.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/bootstrap-will_paginate-1.0.0/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/bootstrap-will_paginate-1.0.0/boostrap-will_paginate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/bootstrap-will_paginate-1.0.0/bootstrap-will_paginate.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/bootstrap-will_paginate-1.0.0/config/initializers/will_paginate.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/bootstrap-will_paginate-1.0.0/lib/bootstrap-will_paginate.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/bootstrap-will_paginate-1.0.0/lib/bootstrap-will_paginate/version.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/History.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/extensions/array.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/extensions/symbol.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/address.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/ancient.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/app.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/artist.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/avatar.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/bank.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/beer.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/bitcoin.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/book.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/boolean.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/business.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/cat.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/chuck_norris.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/code.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/color.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/commerce.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/company.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/crypto.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/date.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/demographic.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/educator.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/esport.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/file.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/fillmurray.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/finance.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/food.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/friends.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/game_of_thrones.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/hacker.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/harry_potter.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/hipster.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/id_number.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/internet.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/job.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/lord_of_the_rings.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/lorem.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/lorem_pixel.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/music.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/name.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/number.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/omniauth.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/phone_number.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/placeholdit.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/pokemon.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/rock_band.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/shakespeare.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/slack_emoji.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/space.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/star_wars.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/superhero.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/team.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/time.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/twin_peaks.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/twitter.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/university.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/vehicle.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/version.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/yoda.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/faker/zelda.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/helpers/char.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/helpers/unique_generator.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/ca-CAT.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/ca.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/da-DK.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/de-AT.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/de-CH.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/de.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/en-AU.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/en-BORK.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/en-CA.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/en-GB.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/en-IND.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/en-NEP.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/en-NG.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/en-NZ.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/en-PAK.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/en-SG.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/en-UG.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/en-US.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/en-ZA.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/en-au-ocker.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/es-MX.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/es.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/fa.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/fi-FI.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/fr.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/he.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/id.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/it.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/ja.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/ko.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/nb-NO.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/nl.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/pl.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/pt-BR.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/pt.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/ru.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/sk.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/sv.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/tr.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/uk.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/vi.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/zh-CN.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/faker-1.7.3/lib/locales/zh-TW.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/globalid-0.4.2/MIT-LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/globalid-0.4.2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/globalid-0.4.2/lib/global_id.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/globalid-0.4.2/lib/global_id/global_id.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/globalid-0.4.2/lib/global_id/identification.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/globalid-0.4.2/lib/global_id/locator.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/globalid-0.4.2/lib/global_id/railtie.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/globalid-0.4.2/lib/global_id/signed_global_id.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/globalid-0.4.2/lib/global_id/uri/gid.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/globalid-0.4.2/lib/global_id/verifier.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/globalid-0.4.2/lib/globalid.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/MIT-LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/gemfiles/Gemfile.rails-3.2.x" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/gemfiles/Gemfile.rails-4.0.x" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/gemfiles/Gemfile.rails-4.1.x" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/gemfiles/Gemfile.rails-4.2.x" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/gemfiles/Gemfile.rails-5.0.x" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/gemfiles/Gemfile.rails-5.1.x" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/gemfiles/Gemfile.rails-master" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/backend.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/backend/base.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/backend/cache.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/backend/cascade.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/backend/chain.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/backend/fallbacks.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/backend/flatten.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/backend/gettext.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/backend/interpolation_compiler.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/backend/key_value.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/backend/memoize.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/backend/metadata.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/backend/pluralization.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/backend/simple.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/backend/transliterator.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/config.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/core_ext/hash.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/core_ext/kernel/suppress_warnings.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/core_ext/string/interpolate.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/exceptions.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/gettext.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/gettext/helpers.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/gettext/po_parser.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/interpolate/ruby.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/locale.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/locale/fallbacks.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/locale/tag.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/locale/tag/parents.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/locale/tag/rfc4646.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/locale/tag/simple.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/middleware.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/tests.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/tests/basics.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/tests/defaults.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/tests/interpolation.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/tests/link.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/tests/localization.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/tests/localization/date.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/tests/localization/date_time.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/tests/localization/procs.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/tests/localization/time.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/tests/lookup.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/tests/pluralization.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/tests/procs.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/lib/i18n/version.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/api/all_features_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/api/cascade_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/api/chain_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/api/fallbacks_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/api/key_value_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/api/memoize_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/api/override_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/api/pluralization_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/api/simple_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/backend/cache_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/backend/cascade_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/backend/chain_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/backend/exceptions_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/backend/fallbacks_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/backend/interpolation_compiler_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/backend/key_value_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/backend/memoize_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/backend/metadata_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/backend/pluralization_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/backend/simple_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/backend/transliterator_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/core_ext/hash_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/gettext/api_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/gettext/backend_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/i18n/exceptions_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/i18n/gettext_plural_keys_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/i18n/interpolate_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/i18n/load_path_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/i18n/middleware_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/i18n_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/locale/fallbacks_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/locale/tag/rfc4646_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/locale/tag/simple_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/run_all.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/test_data/locales/de.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/test_data/locales/en.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/test_data/locales/en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/test_data/locales/invalid/empty.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/test_data/locales/invalid/syntax.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/test_data/locales/plurals.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.9.5/test/test_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/LICENSE-DEPENDENCIES.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/bin/nokogiri" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/dependencies.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/.RUBYARCHDIR.-.nokogiri.time" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/depend" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/extconf.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/html_document.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/html_document.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/html_document.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/html_element_description.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/html_element_description.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/html_element_description.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/html_entity_lookup.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/html_entity_lookup.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/html_entity_lookup.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/html_sax_parser_context.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/html_sax_parser_context.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/html_sax_parser_context.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/html_sax_push_parser.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/html_sax_push_parser.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/html_sax_push_parser.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/nokogiri.bundle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/nokogiri.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/nokogiri.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/nokogiri.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_attr.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_attr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_attr.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_attribute_decl.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_attribute_decl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_attribute_decl.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_cdata.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_cdata.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_cdata.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_comment.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_comment.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_comment.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_document.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_document.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_document.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_document_fragment.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_document_fragment.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_document_fragment.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_dtd.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_dtd.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_dtd.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_element_content.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_element_content.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_element_content.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_element_decl.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_element_decl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_element_decl.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_encoding_handler.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_encoding_handler.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_encoding_handler.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_entity_decl.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_entity_decl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_entity_decl.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_entity_reference.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_entity_reference.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_entity_reference.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_io.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_io.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_io.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_libxml2_hacks.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_libxml2_hacks.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_libxml2_hacks.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_namespace.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_namespace.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_namespace.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_node.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_node.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_node.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_node_set.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_node_set.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_node_set.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_processing_instruction.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_processing_instruction.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_processing_instruction.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_reader.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_reader.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_reader.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_relax_ng.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_relax_ng.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_relax_ng.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_sax_parser.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_sax_parser.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_sax_parser.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_sax_parser_context.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_sax_parser_context.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_sax_parser_context.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_sax_push_parser.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_sax_push_parser.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_sax_push_parser.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_schema.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_schema.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_schema.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_syntax_error.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_syntax_error.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_syntax_error.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_text.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_text.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_text.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_xpath_context.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_xpath_context.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xml_xpath_context.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xslt_stylesheet.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xslt_stylesheet.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/ext/nokogiri/xslt_stylesheet.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/css.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/css/node.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/css/parser.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/css/parser.y" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/css/parser_extras.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/css/syntax_error.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/css/tokenizer.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/css/tokenizer.rex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/css/xpath_visitor.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/decorators/slop.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/html.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/html/builder.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/html/document.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/html/document_fragment.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/html/element_description.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/html/element_description_defaults.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/html/entity_lookup.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/html/sax/parser.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/html/sax/parser_context.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/html/sax/push_parser.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/nokogiri.bundle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/syntax_error.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/version.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/attr.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/attribute_decl.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/builder.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/cdata.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/character_data.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/document.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/document_fragment.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/dtd.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/element_content.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/element_decl.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/entity_decl.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/entity_reference.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/namespace.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/node.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/node/save_options.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/node_set.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/notation.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/parse_options.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/pp.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/pp/character_data.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/pp/node.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/processing_instruction.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/reader.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/relax_ng.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/sax.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/sax/document.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/sax/parser.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/sax/parser_context.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/sax/push_parser.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/schema.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/searchable.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/syntax_error.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/text.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/xpath.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/xpath/syntax_error.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xml/xpath_context.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xslt.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/nokogiri/xslt/stylesheet.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/lib/xsd/xmlparser/nokogiri.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.1/patches/libxml2/0001-Revert-Do-not-URI-escape-in-server-side-includes.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/lib/will_paginate.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/lib/will_paginate/active_record.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/lib/will_paginate/array.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/lib/will_paginate/collection.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/lib/will_paginate/core_ext.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/lib/will_paginate/data_mapper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/lib/will_paginate/deprecation.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/lib/will_paginate/i18n.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/lib/will_paginate/locale/en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/lib/will_paginate/mongoid.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/lib/will_paginate/page_number.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/lib/will_paginate/per_page.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/lib/will_paginate/railtie.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/lib/will_paginate/sequel.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/lib/will_paginate/version.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/lib/will_paginate/view_helpers.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/lib/will_paginate/view_helpers/action_view.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/lib/will_paginate/view_helpers/link_renderer.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/lib/will_paginate/view_helpers/link_renderer_base.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/lib/will_paginate/view_helpers/merb.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/lib/will_paginate/view_helpers/sinatra.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/collection_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/console_fixtures.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/database.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/fake_rubygems.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/finders/active_record_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/finders/activerecord_test_connector.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/finders/data_mapper_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/finders/data_mapper_test_connector.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/finders/mongoid_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/finders/sequel_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/finders/sequel_test_connector.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/fixtures/admin.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/fixtures/developer.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/fixtures/developers_projects.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/fixtures/project.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/fixtures/projects.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/fixtures/replies.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/fixtures/reply.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/fixtures/schema.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/fixtures/topic.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/fixtures/topics.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/fixtures/user.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/fixtures/users.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/matchers/deprecation_matcher.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/matchers/phrase_matcher.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/matchers/query_count_matcher.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/page_number_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/per_page_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/spec_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/view_helpers/action_view_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/view_helpers/base_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/view_helpers/link_renderer_base_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/will_paginate-3.1.6/spec/view_helpers/view_example_group.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/specifications/autoprefixer-rails-9.4.7.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/specifications/bootstrap-will_paginate-1.0.0.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/specifications/faker-1.7.3.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/specifications/globalid-0.4.2.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/specifications/i18n-0.9.5.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/specifications/nokogiri-1.10.1.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/specifications/will_paginate-3.1.6.gemspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/users/_user.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/users.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/users_index_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/users_index_test.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -576,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+            <state relative-caret-position="89">
+              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -585,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -594,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+            <state relative-caret-position="495">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -603,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+            <state relative-caret-position="165">
+              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -612,8 +88,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/integration/users_index_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="65" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
+            <state relative-caret-position="225">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/users/_user.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -664,6 +158,7 @@
       <find>has_secure</find>
       <find>logged_in_user</find>
       <find>destroy</find>
+      <find>render</find>
     </findStrings>
     <replaceStrings>
       <replace>$light-gray</replace>
@@ -723,6 +218,7 @@
         <option value="$PROJECT_DIR$/app/views/users/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/test/fixtures/users.yml" />
+        <option value="$PROJECT_DIR$/app/views/users/_user.html.erb" />
         <option value="$PROJECT_DIR$/test/integration/users_index_test.rb" />
       </list>
     </option>
@@ -1025,21 +521,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546793475993</updated>
-      <workItem from="1546793477126" duration="45610000" />
-    </task>
-    <task id="LOCAL-00061" summary="Fix ugliness of alert div">
-      <created>1549151164345</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1549151164345</updated>
-    </task>
-    <task id="LOCAL-00062" summary="Force all access to the app over SSL">
-      <created>1549151282713</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1549151282713</updated>
+      <workItem from="1546793477126" duration="46699000" />
     </task>
     <task id="LOCAL-00063" summary="Adjust puma webserver config">
       <created>1549151463271</created>
@@ -1370,7 +852,21 @@
       <option name="project" value="LOCAL" />
       <updated>1549678053942</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="Rebundle files">
+      <created>1549678170683</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1549678170683</updated>
+    </task>
+    <task id="LOCAL-00111" summary="Add users index test">
+      <created>1549678186754</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1549678186754</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1385,7 +881,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45610000" />
+    <option name="totallyTimeSpent" value="46699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -1443,8 +939,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement remember/forget cookies functions" />
-    <MESSAGE value="Only log out if a user is actually logged in. Add tests to confirm workflow" />
     <MESSAGE value="Remember a user if the form field is checked and add tests" />
     <MESSAGE value="Add session helper tests" />
     <MESSAGE value="Add user edit form" />
@@ -1468,16 +962,11 @@
     <MESSAGE value="Add new gems for pagination and rebuild bundle" />
     <MESSAGE value="Add pagination to users index" />
     <MESSAGE value="Add more users to test fixtures" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add more users to test fixtures" />
+    <MESSAGE value="Rebundle files" />
+    <MESSAGE value="Add users index test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add users index test" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/dataSources.local.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1760,45 +1249,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -1809,10 +1263,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/_user.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/integration/users_index_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="65" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
