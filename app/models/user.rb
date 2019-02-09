@@ -44,10 +44,12 @@ class User < ApplicationRecord
 		update_attribute(:remember_digest, User.digest(remember_token))
 	end
 
-	# Check whether a user is authenticated based on the current remember token
-	def authenticated?(remember_token)
-		return false if remember_digest.nil?
-		BCrypt::Password.new(remember_digest).is_password?(remember_token)
+	# Check whether a user is authenticated based on the current remember token (attribute - remember/activation)
+	def authenticated?(attribute, token)
+		# using a form of meta-programming to run remember_digest
+		digest = send("#{attribute}_digest")
+		return false if digest.nil?
+		BCrypt::Password.new(digest).is_password?(token)
 	end
 
 	# Forget a user
