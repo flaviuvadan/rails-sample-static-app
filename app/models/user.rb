@@ -44,7 +44,7 @@ class User < ApplicationRecord
 		update_attribute(:remember_digest, User.digest(remember_token))
 	end
 
-	# Check whether a user is authenticated based on the current remember token (attribute - remember/activation)
+	# Check whether a user is authenticated based on the current remember token (attribute - remember/activation/reset)
 	def authenticated?(attribute, token)
 		# using a form of meta-programming to run remember_digest
 		digest = send("#{attribute}_digest")
