@@ -37,14 +37,15 @@ class UsersController < ApplicationController
 	end
 
 	# Show a user
-  def show
-    @user = User.find(params[:id])
+	def show
+		@user       = User.find(params[:id])
+		@microposts = @user.microposts.paginate(page: params[:page])
 		redirect_to root_url and return unless @user.activated?
-  end
+	end
 
 	# Render a new user
-  def new
-    @user = User.new
+	def new
+		@user = User.new
 	end
 
 	# Create and save a user
@@ -77,8 +78,8 @@ class UsersController < ApplicationController
 
 	private
 
-		# Specifies the params that are allowed
-		def user_params
-			params.require(:user).permit(:name, :email, :password, :password_confirmation)
-		end
+	# Specifies the params that are allowed
+	def user_params
+		params.require(:user).permit(:name, :email, :password, :password_confirmation)
+	end
 end
