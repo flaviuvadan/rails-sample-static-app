@@ -3,19 +3,31 @@
 zero:
   content: "Zero!"
   created_at: <%= 5.minutes.ago %>
+  user: Starman
 
 one:
   content: "One!"
   created_at: <%= 10.minutes.ago %>
+  user: Starman
 
 two:
   content: "Two!"
   created_at: <%= 3.years.ago %>
+  user: Starman
 
 three:
   content: "Threee!"
   created_at: <%= 2.hours.ago %>
+  user: Starman
 
 most_recent:
   content: "Most recent!"
   created_at: <%= Time.zone.now %>
+  user: Starman
+
+<% 30.times do |n| %>
+micropost_<%= n %>:
+  content: <%= Faker::Lorem.sentence(5) %>
+  created_at: <%= 42.days.ago %>
+  user: Starman
+<% end %>
