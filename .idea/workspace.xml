@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68861b6f-3f87-4e9e-99eb-f2cb7e760279" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/account_activations_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/account_activations_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/users.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -98,11 +94,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+            <state relative-caret-position="300">
+              <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="78" column="36" selection-start-line="78" selection-start-column="36" selection-end-line="78" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -146,6 +151,8 @@
       <find>authenticated</find>
       <find>activate</find>
       <find>will_paginate</find>
+      <find>config.action_mailer</find>
+      <find>action_mailer.deli</find>
     </findStrings>
     <replaceStrings>
       <replace>$light-gray</replace>
@@ -167,7 +174,6 @@
         <option value="$PROJECT_DIR$/app/views/users/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_error_messages.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/config/puma.rb" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/config/database.yml" />
@@ -208,6 +214,7 @@
         <option value="$PROJECT_DIR$/test/integration/users_index_test.rb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/test/fixtures/users.yml" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -250,6 +257,17 @@
               <item name="rails-sample-static-app" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rails-sample-static-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rails-sample-static-app" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rails-sample-static-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rails-sample-static-app" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="environments" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rails-sample-static-app" type="b2602c69:ProjectViewProjectNode" />
@@ -574,13 +592,6 @@
       <option name="presentableId" value="Default" />
       <updated>1546793475993</updated>
       <workItem from="1546793477126" duration="51530000" />
-    </task>
-    <task id="LOCAL-00083" summary="Adjust schema - rails db:migrate">
-      <created>1549325073283</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1549325073283</updated>
     </task>
     <task id="LOCAL-00084" summary="Add remember token to User model">
       <created>1549325544143</created>
@@ -918,7 +929,14 @@
       <option name="project" value="LOCAL" />
       <updated>1549744117948</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="Refactor and write integration">
+      <created>1549745376133</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1549745376136</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -954,7 +972,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57396000" />
+    <option name="totallyTimeSpent" value="58159000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -1012,7 +1030,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Clean db - rails db:migrate:reset - then seed - rails db:seed" />
     <MESSAGE value="Add new gems for pagination and rebuild bundle" />
     <MESSAGE value="Add pagination to users index" />
     <MESSAGE value="Add more users to test fixtures" />
@@ -1037,16 +1054,10 @@
     <MESSAGE value="Implement AccountActivationsController::edit" />
     <MESSAGE value="Refine the session creation workflow" />
     <MESSAGE value="Add user sign up integration test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add user sign up integration test" />
+    <MESSAGE value="Refactor and write integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor and write integration" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/users/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/actionview-5.1.6/lib/action_view/helpers/url_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -1376,8 +1387,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        <state relative-caret-position="300">
+          <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="78" column="36" selection-start-line="78" selection-start-column="36" selection-end-line="78" selection-end-column="36" />
         </state>
       </provider>
     </entry>
