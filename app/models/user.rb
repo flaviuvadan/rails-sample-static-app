@@ -1,5 +1,7 @@
 class User < ApplicationRecord
-	has_many :microposts
+
+	# not worth storing posts of deleted users
+	has_many :microposts, dependent: :destroy
 
 	attr_accessor :remember_token, :activation_token, :reset_token
 
@@ -89,7 +91,7 @@ class User < ApplicationRecord
 	def send_password_reset_email
 		UserMailer.password_reset(self).deliver_now
 	end
-	
+
 	# Check whether a password reset token is expired 
 	def password_reset_expired?
 		reset_sent_at < 2.hours.ago
