@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68861b6f-3f87-4e9e-99eb-f2cb7e760279" name="Default Changelist" comment="" />
+    <list default="true" id="68861b6f-3f87-4e9e-99eb-f2cb7e760279" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/password_resets_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/password_resets_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/password_resets_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/password_resets_test.rb" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/log/" />
@@ -22,6 +26,8 @@
     <SUITE FILE_PATH="coverage/rails_sample_static_app@test_valid_signup_information_with_account_activation__rails_sample_static_app.rcov" NAME="test_valid_signup_information_with_account_activation: rails-sample-static-app Coverage Results" MODIFIED="1549744018731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-sample-static-app" />
     <SUITE FILE_PATH="coverage/rails_sample_static_app@Run_test__UsersIndexTest___rails_sample_static_app.rcov" NAME="Run test 'UsersIndexTest': rails-sample-static-app Coverage Results" MODIFIED="1549744875469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-sample-static-app" />
     <SUITE FILE_PATH="coverage/rails_sample_static_app@Run_test__UsersEditTest___rails_sample_static_app.rcov" NAME="Run test 'UsersEditTest': rails-sample-static-app Coverage Results" MODIFIED="1549417822570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-sample-static-app" />
+    <SUITE FILE_PATH="coverage/rails_sample_static_app@Run_test__PasswordResetsTest___rails_sample_static_app.rcov" NAME="Run test 'PasswordResetsTest': rails-sample-static-app Coverage Results" MODIFIED="1549814648966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-sample-static-app" />
+    <SUITE FILE_PATH="coverage/rails_sample_static_app@test_password_resets__rails_sample_static_app.rcov" NAME="test_password_resets: rails-sample-static-app Coverage Results" MODIFIED="1549814263269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-sample-static-app" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -47,7 +53,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="499">
@@ -57,10 +63,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/activesupport-5.1.6/lib/active_support/core_ext/numeric/time.rb">
+        <entry file="file://$PROJECT_DIR$/test/integration/password_resets_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+            <state relative-caret-position="536">
+              <caret line="76" column="26" lean-forward="true" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/password_resets/edit.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/shared/_error_messages.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" selection-start-column="6" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/password_resets_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/activerecord-5.1.6/lib/active_record/querying.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -79,12 +130,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>email</find>
-      <find>#777</find>
-      <find>force_ssl</find>
-      <find>racku</find>
-      <find>session</find>
-      <find>params[:session</find>
       <find>Settings</find>
       <find>edit_user_path</find>
       <find>has_secure</find>
@@ -109,6 +154,12 @@
       <find>update_columns</find>
       <find>form_for(@user</find>
       <find>flash[:danger]</find>
+      <find>@user = User.find_by(:email, params[:email])</find>
+      <find>params[:email])</find>
+      <find>User.find_by(email</find>
+      <find>e</find>
+      <find>&lt;%= render 'shared/error_messages' %&gt;</find>
+      <find>@user.errors</find>
     </findStrings>
     <replaceStrings>
       <replace>$light-gray</replace>
@@ -120,7 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/db/migrate/20190127003504_add_index_to_users_email.rb" />
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/users/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_error_messages.html.erb" />
@@ -169,8 +219,9 @@
         <option value="$PROJECT_DIR$/test/mailers/user_mailer_test.rb" />
         <option value="$PROJECT_DIR$/app/views/password_resets/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/password_resets_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/test/integration/password_resets_test.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/password_resets_controller.rb" />
       </list>
     </option>
   </component>
@@ -310,7 +361,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.Run test 'UsersIndexTest': rails-sample-static-app">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.Run test 'PasswordResetsTest': rails-sample-static-app">
     <configuration name="Development: rails-sample-static-app" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="rails-sample-static-app" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -406,7 +457,7 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Run test 'UsersEditTest': rails-sample-static-app" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+    <configuration name="Run test 'PasswordResetsTest': rails-sample-static-app" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <module name="rails-sample-static-app" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
@@ -426,7 +477,7 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/integration/users_edit_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/integration/password_resets_test.rb" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
@@ -496,7 +547,7 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_valid_signup_information: rails-sample-static-app" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+    <configuration name="test_password_resets: rails-sample-static-app" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <module name="rails-sample-static-app" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
@@ -516,9 +567,9 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/integration/users_login_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/integration/password_resets_test.rb" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_valid_signup_information" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_password_resets" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
@@ -558,11 +609,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'PasswordResetsTest': rails-sample-static-app" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_password_resets: rails-sample-static-app" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'UsersIndexTest': rails-sample-static-app" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_valid_signup_information_with_account_activation: rails-sample-static-app" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_account_activation: rails-sample-static-app" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.test_valid_signup_information: rails-sample-static-app" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'UsersEditTest': rails-sample-static-app" />
       </list>
     </recent_temporary>
   </component>
@@ -926,42 +977,43 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_valid_signup_information__rails-sample-static-app - 2019.02.09 at 13h 40m 32s.xml">
-      <configuration name="test_valid_signup_information: rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'PasswordResetsTest'__rails-sample-static-app - 2019.02.10 at 09h 46m 40s.xml">
+      <configuration name="Run test 'PasswordResetsTest': rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_valid_signup_information__rails-sample-static-app - 2019.02.09 at 13h 43m 55s.xml">
-      <configuration name="test_valid_signup_information: rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'PasswordResetsTest'__rails-sample-static-app - 2019.02.10 at 09h 48m 04s.xml">
+      <configuration name="Run test 'PasswordResetsTest': rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_valid_signup_information__rails-sample-static-app - 2019.02.09 at 13h 46m 05s.xml">
-      <configuration name="test_valid_signup_information: rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'PasswordResetsTest'__rails-sample-static-app - 2019.02.10 at 09h 53m 15s.xml">
+      <configuration name="Run test 'PasswordResetsTest': rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_valid_signup_information__rails-sample-static-app - 2019.02.09 at 13h 51m 25s.xml">
-      <configuration name="test_valid_signup_information: rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'PasswordResetsTest'__rails-sample-static-app - 2019.02.10 at 09h 54m 48s.xml">
+      <configuration name="Run test 'PasswordResetsTest': rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_valid_signup_information__rails-sample-static-app - 2019.02.09 at 13h 58m 40s.xml">
-      <configuration name="test_valid_signup_information: rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'PasswordResetsTest'__rails-sample-static-app - 2019.02.10 at 09h 55m 28s.xml">
+      <configuration name="Run test 'PasswordResetsTest': rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_account_activation__rails-sample-static-app - 2019.02.09 at 14h 02m 53s.xml">
-      <configuration name="test_account_activation: rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'PasswordResetsTest'__rails-sample-static-app - 2019.02.10 at 09h 56m 07s.xml">
+      <configuration name="Run test 'PasswordResetsTest': rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_account_activation__rails-sample-static-app - 2019.02.09 at 14h 03m 11s.xml">
-      <configuration name="test_account_activation: rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="test_password_resets__rails-sample-static-app - 2019.02.10 at 09h 56m 38s.xml">
+      <configuration name="test_password_resets: rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_valid_signup_information_with_account_activation__rails-sample-static-app - 2019.02.09 at 14h 24m 01s.xml">
-      <configuration name="test_valid_signup_information_with_account_activation: rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="test_password_resets__rails-sample-static-app - 2019.02.10 at 09h 57m 48s.xml">
+      <configuration name="test_password_resets: rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_valid_signup_information_with_account_activation__rails-sample-static-app - 2019.02.09 at 14h 27m 04s.xml">
-      <configuration name="test_valid_signup_information_with_account_activation: rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'PasswordResetsTest'__rails-sample-static-app - 2019.02.10 at 09h 58m 35s.xml">
+      <configuration name="Run test 'PasswordResetsTest': rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'UsersIndexTest'__rails-sample-static-app - 2019.02.09 at 14h 41m 19s.xml">
-      <configuration name="Run test 'UsersIndexTest': rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'PasswordResetsTest'__rails-sample-static-app - 2019.02.10 at 10h 01m 34s.xml">
+      <configuration name="Run test 'PasswordResetsTest': rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62395000" />
+    <option name="totallyTimeSpent" value="63698000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1080" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" sideWeight="0.5007752" side_tool="true" weight="0.24973376" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992248" visible="true" weight="0.15601704" />
@@ -970,11 +1022,11 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" weight="0.32970297" />
       <window_info anchor="bottom" id="Messages" weight="0.32970297" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.2960396" />
+      <window_info anchor="bottom" id="Terminal" weight="0.2960396" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35346535" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35346535" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1043,20 +1095,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Add password_reset_expired on user model" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/controllers/users_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="52" column="29" lean-forward="true" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/_user.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="54" lean-forward="true" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20190209175333_add_activation_to_users.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1318,9 +1356,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_error_messages.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/user_mailer/password_reset.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1332,27 +1367,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="427" column="10" selection-start-line="427" selection-start-column="10" selection-end-line="427" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/password_resets/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/password_resets_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="50" column="18" lean-forward="true" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -1381,6 +1395,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="499">
           <caret line="86" column="29" lean-forward="true" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/activerecord-5.1.6/lib/active_record/querying.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/integration/password_resets_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="76" column="26" lean-forward="true" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/password_resets/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_error_messages.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/password_resets_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
         </state>
       </provider>
     </entry>
