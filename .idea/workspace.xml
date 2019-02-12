@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68861b6f-3f87-4e9e-99eb-f2cb7e760279" name="Default Changelist" comment="Add test for profile display">
+    <list default="true" id="68861b6f-3f87-4e9e-99eb-f2cb7e760279" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/microposts_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/microposts_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -60,17 +60,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="285">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/microposts_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="38" selection-start-column="38" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/controllers/microposts_controller_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+            <state relative-caret-position="150">
+              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -98,7 +125,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Settings</find>
       <find>edit_user_path</find>
       <find>has_secure</find>
       <find>destroy</find>
@@ -128,6 +154,7 @@
       <find>e</find>
       <find>&lt;%= render 'shared/error_messages' %&gt;</find>
       <find>@user.errors</find>
+      <find>logged</find>
     </findStrings>
     <replaceStrings>
       <replace>$light-gray</replace>
@@ -139,7 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/test/controllers/sessions_controller_test.rb" />
         <option value="$PROJECT_DIR$/test/test_helper.rb" />
         <option value="$PROJECT_DIR$/test/helpers/sessions_helper_test" />
@@ -182,7 +208,6 @@
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/test/models/user_test.rb" />
         <option value="$PROJECT_DIR$/app/views/microposts/_micropost.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" />
@@ -190,6 +215,8 @@
         <option value="$PROJECT_DIR$/test/integration/users_profile_test.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/test/controllers/microposts_controller_test.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
       </list>
     </option>
   </component>
@@ -533,13 +560,6 @@
       <updated>1546793475993</updated>
       <workItem from="1546793477126" duration="51530000" />
     </task>
-    <task id="LOCAL-00109" summary="Add more users to test fixtures">
-      <created>1549678053942</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1549678053942</updated>
-    </task>
     <task id="LOCAL-00110" summary="Rebundle files">
       <created>1549678170683</created>
       <option name="number" value="00110" />
@@ -876,13 +896,17 @@
       <option name="project" value="LOCAL" />
       <updated>1549823133827</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="Add microposts controller tests -&gt; red">
+      <created>1549930570093</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1549930570093</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Run_test_'MicropostTest'__rails-sample-static-app - 2019.02.10 at 11h 19m 40s.xml">
-      <configuration name="Run test 'MicropostTest': rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="Run_test_'MicropostTest'__rails-sample-static-app - 2019.02.10 at 11h 21m 17s.xml">
       <configuration name="Run test 'MicropostTest': rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
@@ -910,16 +934,19 @@
     <history-entry file="Run_test_'UsersProfileTest'__rails-sample-static-app - 2019.02.10 at 12h 24m 27s.xml">
       <configuration name="Run test 'UsersProfileTest': rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="Run_test_'MicropostsControllerTest'__rails-sample-static-app - 2019.02.11 at 18h 15m 16s.xml">
+      <configuration name="Run test 'MicropostsControllerTest': rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67487000" />
+    <option name="totallyTimeSpent" value="67585000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1080" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" sideWeight="0.5007752" side_tool="true" weight="0.24973376" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992248" visible="true" weight="0.15601704" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992248" visible="true" weight="0.15601704" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" weight="0.32970297" />
@@ -929,7 +956,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35346535" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35346535" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -970,7 +997,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add mailer settings for prod" />
     <MESSAGE value="Generate PasswordResetsController - rails generate controller PasswordResets new edit --no-test-framework" />
     <MESSAGE value="rails db:migrate" />
     <MESSAGE value="Fix password_reset view" />
@@ -995,19 +1021,10 @@
     <MESSAGE value="Add microposts on users view" />
     <MESSAGE value="Add microposts styling" />
     <MESSAGE value="Add test for profile display" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add test for profile display" />
+    <MESSAGE value="Add microposts controller tests -&gt; red" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add microposts controller tests -&gt; red" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/actionmailer-5.1.6/lib/rails/generators/mailer/templates/mailer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/railties-5.1.6/lib/rails/mailers_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1288,13 +1305,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/microposts/_micropost.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1330,13 +1340,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/fixtures/microposts.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1346,8 +1349,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/controllers/microposts_controller_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        <state relative-caret-position="150">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/microposts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
     </entry>

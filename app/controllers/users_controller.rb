@@ -21,15 +21,6 @@ class UsersController < ApplicationController
 		redirect_to users_url
 	end
 
-	# Check if a user is logged in
-	def logged_in_user
-		unless logged_in?
-			store_location
-			flash[:danger] = "Please log in"
-			redirect_to login_url
-		end
-	end
-
 	# Check if the user performing a request is the currently logged in one
 	def correct_user
 		@user = User.find(params[:id])
