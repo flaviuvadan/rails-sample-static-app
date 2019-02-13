@@ -26,7 +26,7 @@ class MicropostsController < ApplicationController
 
 		# Get the micropost params from the request
 		def micropost_params
-			params.require(:micropost).permit(:content)
+			params.require(:micropost).permit(:content, :picture)
 		end
 
 		# Check whether a post is associated with the correct user
