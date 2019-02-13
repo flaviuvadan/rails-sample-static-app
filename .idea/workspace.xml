@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="68861b6f-3f87-4e9e-99eb-f2cb7e760279" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/micropost.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/micropost.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/uploaders/picture_uploader.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/uploaders/picture_uploader.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/shared/_micropost_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_micropost_form.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -73,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/shared/_micropost_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            <state relative-caret-position="225">
+              <caret line="15" column="70" lean-forward="true" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -579,13 +577,6 @@
       <updated>1546793475993</updated>
       <workItem from="1546793477126" duration="51530000" />
     </task>
-    <task id="LOCAL-00131" summary="Add user sign up integration test">
-      <created>1549744117947</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1549744117948</updated>
-    </task>
     <task id="LOCAL-00132" summary="Refactor and write integration">
       <created>1549745376133</created>
       <option name="number" value="00132" />
@@ -922,7 +913,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550021931109</updated>
     </task>
-    <option name="localTasksCounter" value="180" />
+    <task id="LOCAL-00180" summary="Add picture size validation on the model and add image type acceptance to uploader form">
+      <created>1550022209531</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1550022209531</updated>
+    </task>
+    <option name="localTasksCounter" value="181" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -958,7 +956,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73035000" />
+    <option name="totallyTimeSpent" value="73150000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -1016,7 +1014,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add microposts on users view" />
     <MESSAGE value="Add microposts styling" />
     <MESSAGE value="Add test for profile display" />
     <MESSAGE value="Add microposts controller tests -&gt; red" />
@@ -1041,7 +1038,8 @@
     <MESSAGE value="Add the PictureUploader to the picture field in the micropost model" />
     <MESSAGE value="Add micropost picture upload option" />
     <MESSAGE value="Include picture upload testing in micropost interface testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Include picture upload testing in micropost interface testing" />
+    <MESSAGE value="Add picture size validation on the model and add image type acceptance to uploader form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add picture size validation on the model and add image type acceptance to uploader form" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/db/migrate/20190210144327_add_reset_to_users.rb">
@@ -1392,8 +1390,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_micropost_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="225">
+          <caret line="15" column="70" lean-forward="true" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
         </state>
       </provider>
     </entry>
