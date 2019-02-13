@@ -8,22 +8,22 @@ zero:
 one:
   content: "One!"
   created_at: <%= 10.minutes.ago %>
-  user: Starman
+  user: Hubble
 
 two:
   content: "Two!"
   created_at: <%= 3.years.ago %>
-  user: Starman
+  user: Kepler
 
 three:
   content: "Threee!"
   created_at: <%= 2.hours.ago %>
-  user: Starman
+  user: Saturn
 
 most_recent:
   content: "Most recent!"
   created_at: <%= Time.zone.now %>
-  user: Starman
+  user: Tesla
 
 <% 30.times do |n| %>
 micropost_<%= n %>:
