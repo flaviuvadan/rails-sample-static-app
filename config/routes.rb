@@ -15,6 +15,13 @@ Rails.application.routes.draw do
 	delete '/logout', to: 'sessions#destroy'
 
 	resources :users
+	resources :users do
+		# responds to routes of user/id
+	  member do
+			# allow to get user's following and user's followers
+			get :following, :followers
+	  end
+	end
 	resources :account_activations, only: [:edit]
 	resources :password_resets, only: [:new, :create, :edit, :update]
 	resources :microposts, only: [:create, :destroy]
