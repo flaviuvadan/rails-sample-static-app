@@ -1,7 +1,7 @@
 class User < ApplicationRecord
 
 	# Rails expects a relationship to be based on <class>_id but have to tell it about this relationship manually
-	has_many :active_relationships, class_name: "Relationship", foreign_key: "follower_id", dependent: destroy
+	has_many :active_relationships, class_name: "Relationship", foreign_key: "follower_id", dependent: :destroy
 
 	# not worth storing posts of deleted users
 	has_many :microposts, dependent: :destroy

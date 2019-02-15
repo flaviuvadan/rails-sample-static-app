@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68861b6f-3f87-4e9e-99eb-f2cb7e760279" name="Default Changelist" comment="">
+    <list default="true" id="68861b6f-3f87-4e9e-99eb-f2cb7e760279" name="Default Changelist" comment="Add relatio">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/relationship.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/relationship.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20190215010607_create_relationships.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20190215010607_create_relationships.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/relationships.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/relationships.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/relationship_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/relationship_test.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -20,6 +24,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/rails_sample_static_app@Run_test__MicropostsControllerTest___rails_sample_static_app.rcov" NAME="Run test 'MicropostsControllerTest': rails-sample-static-app Coverage Results" MODIFIED="1549930702809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-sample-static-app" />
+    <SUITE FILE_PATH="coverage/rails_sample_static_app@test_should_be_a_valid_relationship__rails_sample_static_app.rcov" NAME="test_should_be_a_valid_relationship: rails-sample-static-app Coverage Results" MODIFIED="1550193715485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-sample-static-app" />
     <SUITE FILE_PATH="coverage/rails_sample_static_app@Run_test__UserTest___rails_sample_static_app.rcov" NAME="Run test 'UserTest': rails-sample-static-app Coverage Results" MODIFIED="1549821699688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-sample-static-app" />
     <SUITE FILE_PATH="coverage/rails_sample_static_app@test_micropost_interface__rails_sample_static_app.rcov" NAME="test_micropost_interface: rails-sample-static-app Coverage Results" MODIFIED="1550021902563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-sample-static-app" />
     <SUITE FILE_PATH="coverage/rails_sample_static_app@test_account_activation__rails_sample_static_app.rcov" NAME="test_account_activation: rails-sample-static-app Coverage Results" MODIFIED="1549742587593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-sample-static-app" />
@@ -27,6 +32,7 @@
     <SUITE FILE_PATH="coverage/rails_sample_static_app@Run_test__PasswordResetsTest___rails_sample_static_app.rcov" NAME="Run test 'PasswordResetsTest': rails-sample-static-app Coverage Results" MODIFIED="1549814648966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-sample-static-app" />
     <SUITE FILE_PATH="coverage/rails_sample_static_app@test_password_resets__rails_sample_static_app.rcov" NAME="test_password_resets: rails-sample-static-app Coverage Results" MODIFIED="1549814263269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-sample-static-app" />
     <SUITE FILE_PATH="coverage/rails_sample_static_app@Run_test__UsersProfileTest___rails_sample_static_app.rcov" NAME="Run test 'UsersProfileTest': rails-sample-static-app Coverage Results" MODIFIED="1549823056422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-sample-static-app" />
+    <SUITE FILE_PATH="coverage/rails_sample_static_app@Run_test__RelationshipTest___rails_sample_static_app.rcov" NAME="Run test 'RelationshipTest': rails-sample-static-app Coverage Results" MODIFIED="1550193999099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-sample-static-app" />
     <SUITE FILE_PATH="coverage/rails_sample_static_app@test_micropost_sidebar_count__rails_sample_static_app.rcov" NAME="test_micropost_sidebar_count: rails-sample-static-app Coverage Results" MODIFIED="1550021027046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-sample-static-app" />
     <SUITE FILE_PATH="coverage/rails_sample_static_app@test_valid_signup_information__rails_sample_static_app.rcov" NAME="test_valid_signup_information: rails-sample-static-app Coverage Results" MODIFIED="1549742315089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-sample-static-app" />
     <SUITE FILE_PATH="coverage/rails_sample_static_app@Run_test__MicropostTest___rails_sample_static_app.rcov" NAME="Run test 'MicropostTest': rails-sample-static-app Coverage Results" MODIFIED="1549821572007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-sample-static-app" />
@@ -60,28 +66,55 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20190215010607_create_relationships.rb">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="225">
+              <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20190215010607_create_relationships.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/relationship.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/relationship.rb">
+        <entry file="file://$PROJECT_DIR$/test/fixtures/relationships.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="42" lean-forward="true" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/models/relationship_test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -141,8 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/helpers/sessions_helper.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
         <option value="$PROJECT_DIR$/test/integration/users_signup_test.rb" />
         <option value="$PROJECT_DIR$/app/controllers/account_activations_controller.rb" />
         <option value="$PROJECT_DIR$/test/integration/users_index_test.rb" />
@@ -189,9 +220,11 @@
         <option value="$PROJECT_DIR$/config/initializers/carrier_wave.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/views/shared/_micropost_form.html.erb" />
-        <option value="$PROJECT_DIR$/db/migrate/20190215010607_create_relationships.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/test/models/relationship_test.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20190215010607_create_relationships.rb" />
         <option value="$PROJECT_DIR$/app/models/relationship.rb" />
+        <option value="$PROJECT_DIR$/test/fixtures/relationships.yml" />
       </list>
     </option>
   </component>
@@ -319,7 +352,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.test_micropost_interface: rails-sample-static-app">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.Run test 'RelationshipTest': rails-sample-static-app">
     <configuration name="Development: rails-sample-static-app" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="rails-sample-static-app" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -415,36 +448,6 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Run test 'MicropostsControllerTest': rails-sample-static-app" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
-      <module name="rails-sample-static-app" />
-      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/controllers/microposts_controller_test.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Run test 'MicropostsInterfaceTest': rails-sample-static-app" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <module name="rails-sample-static-app" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
@@ -475,7 +478,7 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="Run test 'UsersProfileTest': rails-sample-static-app" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+    <configuration name="Run test 'RelationshipTest': rails-sample-static-app" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <module name="rails-sample-static-app" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
@@ -495,7 +498,7 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/integration/users_profile_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/models/relationship_test.rb" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
@@ -565,13 +568,43 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_should_be_a_valid_relationship: rails-sample-static-app" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <module name="rails-sample-static-app" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/models/relationship_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_should_be_a_valid_relationship" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'RelationshipTest': rails-sample-static-app" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_should_be_a_valid_relationship: rails-sample-static-app" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_micropost_interface: rails-sample-static-app" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_micropost_sidebar_count: rails-sample-static-app" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'MicropostsInterfaceTest': rails-sample-static-app" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'MicropostsControllerTest': rails-sample-static-app" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'UsersProfileTest': rails-sample-static-app" />
       </list>
     </recent_temporary>
   </component>
@@ -935,56 +968,56 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Run_test_'MicropostsInterfaceTest'__rails-sample-static-app - 2019.02.12 at 19h 10m 30s.xml">
-      <configuration name="Run test 'MicropostsInterfaceTest': rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'RelationshipTest'__rails-sample-static-app - 2019.02.14 at 19h 17m 26s.xml">
+      <configuration name="Run test 'RelationshipTest': rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'MicropostsInterfaceTest'__rails-sample-static-app - 2019.02.12 at 19h 13m 01s.xml">
-      <configuration name="Run test 'MicropostsInterfaceTest': rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'RelationshipTest'__rails-sample-static-app - 2019.02.14 at 19h 18m 57s.xml">
+      <configuration name="Run test 'RelationshipTest': rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_micropost_interface__rails-sample-static-app - 2019.02.12 at 19h 18m 34s.xml">
-      <configuration name="test_micropost_interface: rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="test_should_be_a_valid_relationship__rails-sample-static-app - 2019.02.14 at 19h 19m 06s.xml">
+      <configuration name="test_should_be_a_valid_relationship: rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'MicropostsInterfaceTest'__rails-sample-static-app - 2019.02.12 at 19h 18m 47s.xml">
-      <configuration name="Run test 'MicropostsInterfaceTest': rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'RelationshipTest'__rails-sample-static-app - 2019.02.14 at 19h 19m 56s.xml">
+      <configuration name="Run test 'RelationshipTest': rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_micropost_interface__rails-sample-static-app - 2019.02.12 at 19h 19m 54s.xml">
-      <configuration name="test_micropost_interface: rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="test_should_be_a_valid_relationship__rails-sample-static-app - 2019.02.14 at 19h 20m 55s.xml">
+      <configuration name="test_should_be_a_valid_relationship: rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'MicropostsInterfaceTest'__rails-sample-static-app - 2019.02.12 at 19h 20m 21s.xml">
-      <configuration name="Run test 'MicropostsInterfaceTest': rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="test_should_be_a_valid_relationship__rails-sample-static-app - 2019.02.14 at 19h 21m 38s.xml">
+      <configuration name="test_should_be_a_valid_relationship: rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_micropost_sidebar_count__rails-sample-static-app - 2019.02.12 at 19h 23m 29s.xml">
-      <configuration name="test_micropost_sidebar_count: rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="test_should_be_a_valid_relationship__rails-sample-static-app - 2019.02.14 at 19h 21m 59s.xml">
+      <configuration name="test_should_be_a_valid_relationship: rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_micropost_sidebar_count__rails-sample-static-app - 2019.02.12 at 19h 23m 51s.xml">
-      <configuration name="test_micropost_sidebar_count: rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'RelationshipTest'__rails-sample-static-app - 2019.02.14 at 19h 22m 25s.xml">
+      <configuration name="Run test 'RelationshipTest': rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_micropost_interface__rails-sample-static-app - 2019.02.12 at 19h 37m 48s.xml">
-      <configuration name="test_micropost_interface: rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'RelationshipTest'__rails-sample-static-app - 2019.02.14 at 19h 23m 27s.xml">
+      <configuration name="Run test 'RelationshipTest': rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_micropost_interface__rails-sample-static-app - 2019.02.12 at 19h 38m 28s.xml">
-      <configuration name="test_micropost_interface: rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'RelationshipTest'__rails-sample-static-app - 2019.02.14 at 19h 24m 33s.xml">
+      <configuration name="Run test 'RelationshipTest': rails-sample-static-app" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75904000" />
+    <option name="totallyTimeSpent" value="76687000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1080" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" sideWeight="0.5007752" side_tool="true" weight="0.24973376" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992248" visible="true" weight="0.15601704" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992248" visible="true" weight="0.15601704" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" weight="0.32970297" />
       <window_info anchor="bottom" id="Version Control" weight="0.32970297" />
       <window_info anchor="bottom" id="Messages" weight="0.32970297" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.31287128" />
+      <window_info anchor="bottom" id="Terminal" weight="0.31287128" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35346535" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35346535" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1053,20 +1086,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Implement carrier wave config for AWS storage" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/2.3.0/gems/activerecord-5.1.6/lib/active_record/persistence.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="288" column="16" lean-forward="true" selection-start-line="288" selection-start-column="16" selection-end-line="288" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/user_mailer/password_reset.text.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1259,13 +1278,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1385,24 +1397,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190215010607_create_relationships.rb">
+    <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        <state relative-caret-position="225">
+          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190215010607_create_relationships.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/models/relationship_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/relationship.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="42" lean-forward="true" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+        <state relative-caret-position="60">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/relationships.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
