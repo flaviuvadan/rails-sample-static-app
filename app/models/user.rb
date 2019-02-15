@@ -107,4 +107,20 @@ class User < ApplicationRecord
 	def feed
 		Micropost.where("user_id = ?", id) # equivalent to 'microposts'
 	end
+
+	# Follow another User
+	def follow(user)
+		# follower = self, followed = user
+		following << user
+	end
+
+	# Unfollow a User
+	def unfollow(user)
+		following.delete(user)
+	end
+
+	# Tell whether the current user is following the given user
+	def following?(user)
+		following.include?(user)
+	end
 end
