@@ -1,10 +1,16 @@
 class User < ApplicationRecord
 
 	# Rails expects a relationship to be based on <class>_id but have to tell it about this relationship manually
+	# this sets self as a follower
 	has_many :active_relationships, class_name: "Relationship", foreign_key: "follower_id", dependent: :destroy
 
 	# alias user.following to point to the followed resource to avoid awkward "followeds"
 	has_many :following, through: :active_relationships, source: :followed
+
+	# this is the inverse of the above, define self as the followed id
+	has_many :passive_relationships, class_name: "Relationship", foreign_key: "followed_id", dependent: :destroy
+
+	has_many :followers, through: :passive_relationships, source: :follower
 
 	# not worth storing posts of deleted users
 	has_many :microposts, dependent: :destroy

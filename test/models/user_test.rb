@@ -89,6 +89,7 @@ class UserTest < ActiveSupport::TestCase
 		assert_not starman.following?(zaphod)
 		starman.follow(zaphod)
 		assert starman.following?(zaphod)
+		assert zaphod.followers.include?(starman)
 		starman.unfollow(zaphod)
 		assert_not starman.following?(zaphod)
 	end
