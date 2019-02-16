@@ -111,7 +111,7 @@ class User < ApplicationRecord
 
 	# A feed of user's posts
 	def feed
-		Micropost.where("user_id = ?", id) # equivalent to 'microposts'
+		Micropost.where("user_id IN (?) OR user_id = ?", following_ids, id)
 	end
 
 	# Follow another User
