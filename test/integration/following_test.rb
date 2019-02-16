@@ -4,7 +4,7 @@ class FollowingTest < ActionDispatch::IntegrationTest
 
 	def setup
 		@user = users(:Starman)
-		@user_2 = users(:Zaphod)
+		@user_2 = users(:Ford)
 		log_in_as(@user)
 	end
 
