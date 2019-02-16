@@ -1,4 +1,4 @@
-<%= form_for(current_user.active_relationships.build) do |f| %>
+<%= form_for(current_user.active_relationships.build, remote: true) do |f| %>
   <!--
     followed id is the user that will be followed (@user.id) by the current user
     (relationship: currentuser.id -> user.id)
