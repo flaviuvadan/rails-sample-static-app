@@ -109,9 +109,11 @@ class User < ApplicationRecord
 		reset_sent_at < 2.hours.ago
 	end
 
-	# A feed of user's posts
+	# A feed of user's posts (self posted microposts and followings' microposts)
 	def feed
-		Micropost.where("user_id IN (?) OR user_id = ?", following_ids, id)
+		# limit the number of
+		following_ids = "SELECT followed_id FROM relationships WHERE follower_id = :user_id"
+		Micropost.where("user_id IN (#{following_ids}) OR user_id = :user_id", user_id: id)
 	end
 
 	# Follow another User

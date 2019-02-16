@@ -84,14 +84,14 @@ class UserTest < ActiveSupport::TestCase
 
 	test "should follow and unfollow a user" do
 	  starman = users(:Starman)
-		zaphod = users(:Zaphod)
+		ford = users(:Ford)
 
-		assert_not starman.following?(zaphod)
-		starman.follow(zaphod)
-		assert starman.following?(zaphod)
-		assert zaphod.followers.include?(starman)
-		starman.unfollow(zaphod)
-		assert_not starman.following?(zaphod)
+		assert_not starman.following?(ford)
+		starman.follow(ford)
+		assert starman.following?(ford)
+		assert ford.followers.include?(starman)
+		starman.unfollow(ford)
+		assert_not starman.following?(ford)
 	end
 
 	test "feed should have correct posts" do
